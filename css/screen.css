@@ -11,7 +11,7 @@
     body#bowlet div#progress {opacity: 0.5; width: 100%; height: 0.2em; margin: 0.4em 0em; background: transparent url(../img/progress_back.png) top left repeat;}
     body#bowlet div#progress div#bar {width: 0; height: 0.2em; position: relative; display: block; background: #fff; opacity: 0.5;}
     
-    body#bowlet div#info {position:absolute; bottom:0, left:0; width: 600px; overflow: hidden; opacity:0.5;}
+    body#bowlet div#info {position:absolute; bottom:0, left:0; width: 840px; overflow: hidden; opacity:0.5;}
     body#bowlet div#info p {opacity: 0.5; line-height:1.2em; font-size: 1.2em; padding: 0em; white-space: pre;}
     
     body#bowlet div#rating {font-size: 1em; line-height: 1.9em; position: absolute; right: 0; bottom: 0;  -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,.1)))}
