@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@media screen {
+    body {background: transparent; color: #fff; cursor: default; overflow: visible;}
+    body, div, img {font-size: 72px;}
+    body, div, input, textarea, select, option, label, p, h1, h2, h3, h4, h5, h6 {font-family: 'HelveticaNeue-Light', 'MyriadPro-Light', 'HelveticaNeue', 'MyriadPro', helvetica, arial, sans-serif;}
+    body#bowlet {position:relative}
+    body#bowlet div#title {min-height: 1.5em; opacity:0.5;}
+    body#bowlet div#title p {opacity: 0.5; font-size: 1.5em; white-space: pre;}
+    body#bowlet div#title, body#bowlet div#progress { -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))}
+    
+    body#bowlet div#progress {opacity: 0.5; width: 100%; height: 0.2em; margin: 0.4em 0em; background: transparent url(../img/progress_back.png) top left repeat;}
+    body#bowlet div#progress div#bar {width: 0; height: 0.2em; position: relative; display: block; background: #fff; opacity: 0.5;}
+    
+    body#bowlet div#info {position:absolute; bottom:0, left:0; width: 600px; overflow: hidden; opacity:0.5;}
+    body#bowlet div#info p {opacity: 0.5; line-height:1.2em; font-size: 1.2em; padding: 0em; white-space: pre;}
+    
+    body#bowlet div#rating {font-size: 1em; line-height: 1.9em; position: absolute; right: 0; bottom: 0;  -webkit-mask-image: -webkit-gradient(linear, left top, right top, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,.1)))}
+    body#bowlet div#rating a {padding: 0em; }
+    
+    body#bowlet div#debug {display: none; background: #fff; padding: 1em 0.5em; margin: 1em 0em 0em 0em;}
+    body#bowlet div#debug ul li {font-size: 1.4em;}
+    body#bowlet div#debug ul li.error {color: red;}
+    body#bowlet div#debug ul li.success {color: green;}
+}

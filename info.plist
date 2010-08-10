@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BTThemeName</key>
+	<string>Chō ōgata</string>
+	<key>BTThemeIdentifier</key>
+	<string>com.seaofclouds.choogata-white</string>
+	<key>BTThemVersion</key>
+	<string>0.6a</string>
+	<key>BTThemePreviewImage</key>
+	<string>img/preview.png</string>
+	<key>BTThemeArtist</key>
+	<string>seaofclouds</string>
+	<key>BTThemeArtistUrl</key>
+	<string>http://seaofclouds.com</string>
+	<key>BTMainFile</key>
+	<string>index.html</string>
+	<key>BTWindowWidth</key>
+	<integer>1300</integer>
+	<key>BTWindowHeight</key>
+	<integer>300</integer>
+	<key>BTWindowMode</key>
+	<string>desktop</string>
+	<key>BTSpacesBehavior</key>
+	<string>all</string>
+	<key>BTArtworkWidth</key>
+    <integer>45</integer>
+    <key>BTArtworkHeight</key>
+    <integer>45</integer>
+    <key>BTStatusFunction</key>
+	<string>playerUpdate</string>
+	<key>BTTrackFunction</key>
+	<string>trackUpdate</string>
+	<key>BTArtworkFunction</key>
+	<string>artworkUpdate</string>
+</dict>
+</plist>
